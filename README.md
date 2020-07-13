@@ -1,1 +1,1 @@
-# AlteryxNaPr-tica
+# AlteryxNaPratica
