@@ -1,0 +1,1438 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.2">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Directory.Directory">
+        <Position x="78" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Directory>C:\Users\beuo\Desktop\AulasAlteryx</Directory>
+          <FileSpec>testeEmAula.*</FileSpec>
+          <IncludeSubDirs value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dir C:\Users\beuo\Desktop\AulasAlteryx\testeEmAula.*</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDirectory" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="354" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\beuo\AppData\Local\Temp\Engine_3368_83056e92d57249d2a7ac63b09cbd8915_\Engine_3024_30e3cba88b1c4acc8ade398287fd08cb_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Perfil</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="102" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="125" />
+          <Fields>
+            <Field name="Survived" />
+            <Field name="Pclass" />
+            <Field name="Name" />
+            <Field name="Sex" />
+            <Field name="Age" />
+            <Field name="Siblings/Spouses Aboard" />
+            <Field name="Parents/Children Aboard" />
+            <Field name="Fare" />
+          </Fields>
+          <Data>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. Owen Harris Braund</c>
+              <c>male</c>
+              <c>22</c>
+              <c>1</c>
+              <c>0</c>
+              <c>7.25</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>1</c>
+              <c>Mrs. John Bradley (Florence Briggs Thayer) Cumings</c>
+              <c>female</c>
+              <c>38</c>
+              <c>1</c>
+              <c>0</c>
+              <c>71.2833</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>Miss. Laina Heikkinen</c>
+              <c>female</c>
+              <c>26</c>
+              <c>0</c>
+              <c>0</c>
+              <c>7.925</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>1</c>
+              <c>Mrs. Jacques Heath (Lily May Peel) Futrelle</c>
+              <c>female</c>
+              <c>35</c>
+              <c>1</c>
+              <c>0</c>
+              <c>53.1</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. William Henry Allen</c>
+              <c>male</c>
+              <c>35</c>
+              <c>0</c>
+              <c>0</c>
+              <c>8.05</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. James Moran</c>
+              <c>male</c>
+              <c>27</c>
+              <c>0</c>
+              <c>0</c>
+              <c>8.4583</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>1</c>
+              <c>Mr. Timothy J McCarthy</c>
+              <c>male</c>
+              <c>54</c>
+              <c>0</c>
+              <c>0</c>
+              <c>51.8625</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Master. Gosta Leonard Palsson</c>
+              <c>male</c>
+              <c>2</c>
+              <c>3</c>
+              <c>1</c>
+              <c>21.075</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>Mrs. Oscar W (Elisabeth Vilhelmina Berg) Johnson</c>
+              <c>female</c>
+              <c>27</c>
+              <c>0</c>
+              <c>2</c>
+              <c>11.1333</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>2</c>
+              <c>Mrs. Nicholas (Adele Achem) Nasser</c>
+              <c>female</c>
+              <c>14</c>
+              <c>1</c>
+              <c>0</c>
+              <c>30.0708</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>Miss. Marguerite Rut Sandstrom</c>
+              <c>female</c>
+              <c>4</c>
+              <c>1</c>
+              <c>1</c>
+              <c>16.7</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>1</c>
+              <c>Miss. Elizabeth Bonnell</c>
+              <c>female</c>
+              <c>58</c>
+              <c>0</c>
+              <c>0</c>
+              <c>26.55</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. William Henry Saundercock</c>
+              <c>male</c>
+              <c>20</c>
+              <c>0</c>
+              <c>0</c>
+              <c>8.05</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. Anders Johan Andersson</c>
+              <c>male</c>
+              <c>39</c>
+              <c>1</c>
+              <c>5</c>
+              <c>31.275</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Miss. Hulda Amanda Adolfina Vestrom</c>
+              <c>female</c>
+              <c>14</c>
+              <c>0</c>
+              <c>0</c>
+              <c>7.8542</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>2</c>
+              <c>Mrs. (Mary D Kingcome) Hewlett</c>
+              <c>female</c>
+              <c>55</c>
+              <c>0</c>
+              <c>0</c>
+              <c>16</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Master. Eugene Rice</c>
+              <c>male</c>
+              <c>2</c>
+              <c>4</c>
+              <c>1</c>
+              <c>29.125</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>2</c>
+              <c>Mr. Charles Eugene Williams</c>
+              <c>male</c>
+              <c>23</c>
+              <c>0</c>
+              <c>0</c>
+              <c>13</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mrs. Julius (Emelia Maria Vandemoortele) Vander Planke</c>
+              <c>female</c>
+              <c>31</c>
+              <c>1</c>
+              <c>0</c>
+              <c>18</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>Mrs. Fatima Masselmani</c>
+              <c>female</c>
+              <c>22</c>
+              <c>0</c>
+              <c>0</c>
+              <c>7.225</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>2</c>
+              <c>Mr. Joseph J Fynney</c>
+              <c>male</c>
+              <c>35</c>
+              <c>0</c>
+              <c>0</c>
+              <c>26</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>2</c>
+              <c>Mr. Lawrence Beesley</c>
+              <c>male</c>
+              <c>34</c>
+              <c>0</c>
+              <c>0</c>
+              <c>13</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>Miss. Anna McGowan</c>
+              <c>female</c>
+              <c>15</c>
+              <c>0</c>
+              <c>0</c>
+              <c>8.0292</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>1</c>
+              <c>Mr. William Thompson Sloper</c>
+              <c>male</c>
+              <c>28</c>
+              <c>0</c>
+              <c>0</c>
+              <c>35.5</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Miss. Torborg Danira Palsson</c>
+              <c>female</c>
+              <c>8</c>
+              <c>3</c>
+              <c>1</c>
+              <c>21.075</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>Mrs. Carl Oscar (Selma Augusta Emilia Johansson) Asplund</c>
+              <c>female</c>
+              <c>38</c>
+              <c>1</c>
+              <c>5</c>
+              <c>31.3875</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. Farred Chehab Emir</c>
+              <c>male</c>
+              <c>26</c>
+              <c>0</c>
+              <c>0</c>
+              <c>7.225</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>1</c>
+              <c>Mr. Charles Alexander Fortune</c>
+              <c>male</c>
+              <c>19</c>
+              <c>3</c>
+              <c>2</c>
+              <c>263</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>Miss. Ellen O'Dwyer</c>
+              <c>female</c>
+              <c>24</c>
+              <c>0</c>
+              <c>0</c>
+              <c>7.8792</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. Lalio Todoroff</c>
+              <c>male</c>
+              <c>23</c>
+              <c>0</c>
+              <c>0</c>
+              <c>7.8958</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>1</c>
+              <c>Don. Manuel E Uruchurtu</c>
+              <c>male</c>
+              <c>40</c>
+              <c>0</c>
+              <c>0</c>
+              <c>27.7208</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>1</c>
+              <c>Mrs. William Augustus (Marie Eugenie) Spencer</c>
+              <c>female</c>
+              <c>48</c>
+              <c>1</c>
+              <c>0</c>
+              <c>146.5208</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>Miss. Mary Agatha Glynn</c>
+              <c>female</c>
+              <c>18</c>
+              <c>0</c>
+              <c>0</c>
+              <c>7.75</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>2</c>
+              <c>Mr. Edward H Wheadon</c>
+              <c>male</c>
+              <c>66</c>
+              <c>0</c>
+              <c>0</c>
+              <c>10.5</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>1</c>
+              <c>Mr. Edgar Joseph Meyer</c>
+              <c>male</c>
+              <c>28</c>
+              <c>1</c>
+              <c>0</c>
+              <c>82.1708</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>1</c>
+              <c>Mr. Alexander Oskar Holverson</c>
+              <c>male</c>
+              <c>42</c>
+              <c>1</c>
+              <c>0</c>
+              <c>52</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>Mr. Hanna Mamee</c>
+              <c>male</c>
+              <c>18</c>
+              <c>0</c>
+              <c>0</c>
+              <c>7.2292</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. Ernest Charles Cann</c>
+              <c>male</c>
+              <c>21</c>
+              <c>0</c>
+              <c>0</c>
+              <c>8.05</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Miss. Augusta Maria Vander Planke</c>
+              <c>female</c>
+              <c>18</c>
+              <c>2</c>
+              <c>0</c>
+              <c>18</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>Miss. Jamila Nicola-Yarred</c>
+              <c>female</c>
+              <c>14</c>
+              <c>1</c>
+              <c>0</c>
+              <c>11.2417</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mrs. Johan (Johanna Persdotter Larsson) Ahlin</c>
+              <c>female</c>
+              <c>40</c>
+              <c>1</c>
+              <c>0</c>
+              <c>9.475</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>2</c>
+              <c>Mrs. William John Robert (Dorothy Ann Wonnacott) Turpin</c>
+              <c>female</c>
+              <c>27</c>
+              <c>1</c>
+              <c>0</c>
+              <c>21</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>2</c>
+              <c>Miss. Simonne Marie Anne Andree Laroche</c>
+              <c>female</c>
+              <c>3</c>
+              <c>1</c>
+              <c>2</c>
+              <c>41.5792</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>Miss. Margaret Delia Devaney</c>
+              <c>female</c>
+              <c>19</c>
+              <c>0</c>
+              <c>0</c>
+              <c>7.8792</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. William John Rogers</c>
+              <c>male</c>
+              <c>30</c>
+              <c>0</c>
+              <c>0</c>
+              <c>8.05</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. Denis Lennon</c>
+              <c>male</c>
+              <c>20</c>
+              <c>1</c>
+              <c>0</c>
+              <c>15.5</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>Miss. Bridget O'Driscoll</c>
+              <c>female</c>
+              <c>27</c>
+              <c>0</c>
+              <c>0</c>
+              <c>7.75</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. Youssef Samaan</c>
+              <c>male</c>
+              <c>16</c>
+              <c>2</c>
+              <c>0</c>
+              <c>21.6792</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mrs. Josef (Josefine Franchi) Arnold-Franchi</c>
+              <c>female</c>
+              <c>18</c>
+              <c>1</c>
+              <c>0</c>
+              <c>17.8</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Master. Juha Niilo Panula</c>
+              <c>male</c>
+              <c>7</c>
+              <c>4</c>
+              <c>1</c>
+              <c>39.6875</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. Richard Cater Nosworthy</c>
+              <c>male</c>
+              <c>21</c>
+              <c>0</c>
+              <c>0</c>
+              <c>7.8</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>1</c>
+              <c>Mrs. Henry Sleeper (Myna Haxtun) Harper</c>
+              <c>female</c>
+              <c>49</c>
+              <c>1</c>
+              <c>0</c>
+              <c>76.7292</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>2</c>
+              <c>Mrs. Lizzie (Elizabeth Anne Wilkinson) Faunthorpe</c>
+              <c>female</c>
+              <c>29</c>
+              <c>1</c>
+              <c>0</c>
+              <c>26</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>1</c>
+              <c>Mr. Engelhart Cornelius Ostby</c>
+              <c>male</c>
+              <c>65</c>
+              <c>0</c>
+              <c>1</c>
+              <c>61.9792</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>1</c>
+              <c>Mr. Hugh Woolner</c>
+              <c>male</c>
+              <c>46</c>
+              <c>0</c>
+              <c>0</c>
+              <c>35.5</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>2</c>
+              <c>Miss. Emily Rugg</c>
+              <c>female</c>
+              <c>21</c>
+              <c>0</c>
+              <c>0</c>
+              <c>10.5</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. Mansouer Novel</c>
+              <c>male</c>
+              <c>28.5</c>
+              <c>0</c>
+              <c>0</c>
+              <c>7.2292</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>2</c>
+              <c>Miss. Constance Mirium West</c>
+              <c>female</c>
+              <c>5</c>
+              <c>1</c>
+              <c>2</c>
+              <c>27.75</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Master. William Frederick Goodwin</c>
+              <c>male</c>
+              <c>11</c>
+              <c>5</c>
+              <c>2</c>
+              <c>46.9</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. Orsen Sirayanian</c>
+              <c>male</c>
+              <c>22</c>
+              <c>0</c>
+              <c>0</c>
+              <c>7.2292</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>1</c>
+              <c>Miss. Amelie Icard</c>
+              <c>female</c>
+              <c>38</c>
+              <c>0</c>
+              <c>0</c>
+              <c>80</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>1</c>
+              <c>Mr. Henry Birkhardt Harris</c>
+              <c>male</c>
+              <c>45</c>
+              <c>1</c>
+              <c>0</c>
+              <c>83.475</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Master. Harald Skoog</c>
+              <c>male</c>
+              <c>4</c>
+              <c>3</c>
+              <c>2</c>
+              <c>27.9</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>1</c>
+              <c>Mr. Albert A Stewart</c>
+              <c>male</c>
+              <c>64</c>
+              <c>0</c>
+              <c>0</c>
+              <c>27.7208</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>Master. Gerios Moubarek</c>
+              <c>male</c>
+              <c>7</c>
+              <c>1</c>
+              <c>1</c>
+              <c>15.2458</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>2</c>
+              <c>Mrs. (Elizabeth Ramell) Nye</c>
+              <c>female</c>
+              <c>29</c>
+              <c>0</c>
+              <c>0</c>
+              <c>10.5</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. Ernest James Crease</c>
+              <c>male</c>
+              <c>19</c>
+              <c>0</c>
+              <c>0</c>
+              <c>8.1583</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>Miss. Erna Alexandra Andersson</c>
+              <c>female</c>
+              <c>17</c>
+              <c>4</c>
+              <c>2</c>
+              <c>7.925</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. Vincenz Kink</c>
+              <c>male</c>
+              <c>26</c>
+              <c>2</c>
+              <c>0</c>
+              <c>8.6625</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>2</c>
+              <c>Mr. Stephen Curnow Jenkin</c>
+              <c>male</c>
+              <c>32</c>
+              <c>0</c>
+              <c>0</c>
+              <c>10.5</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Miss. Lillian Amy Goodwin</c>
+              <c>female</c>
+              <c>16</c>
+              <c>5</c>
+              <c>2</c>
+              <c>46.9</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>2</c>
+              <c>Mr. Ambrose Jr Hood</c>
+              <c>male</c>
+              <c>21</c>
+              <c>0</c>
+              <c>0</c>
+              <c>73.5</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. Apostolos Chronopoulos</c>
+              <c>male</c>
+              <c>26</c>
+              <c>1</c>
+              <c>0</c>
+              <c>14.4542</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>Mr. Lee Bing</c>
+              <c>male</c>
+              <c>32</c>
+              <c>0</c>
+              <c>0</c>
+              <c>56.4958</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. Sigurd Hansen Moen</c>
+              <c>male</c>
+              <c>25</c>
+              <c>0</c>
+              <c>0</c>
+              <c>7.65</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. Ivan Staneff</c>
+              <c>male</c>
+              <c>23</c>
+              <c>0</c>
+              <c>0</c>
+              <c>7.8958</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. Rahamin Haim Moutal</c>
+              <c>male</c>
+              <c>28</c>
+              <c>0</c>
+              <c>0</c>
+              <c>8.05</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>2</c>
+              <c>Master. Alden Gates Caldwell</c>
+              <c>male</c>
+              <c>0.83</c>
+              <c>0</c>
+              <c>2</c>
+              <c>29</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>Miss. Elizabeth Dowdell</c>
+              <c>female</c>
+              <c>30</c>
+              <c>0</c>
+              <c>0</c>
+              <c>12.475</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. Achille Waelens</c>
+              <c>male</c>
+              <c>22</c>
+              <c>0</c>
+              <c>0</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>Mr. Jan Baptist Sheerlinck</c>
+              <c>male</c>
+              <c>29</c>
+              <c>0</c>
+              <c>0</c>
+              <c>9.5</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>Miss. Brigdet Delia McDermott</c>
+              <c>female</c>
+              <c>31</c>
+              <c>0</c>
+              <c>0</c>
+              <c>7.7875</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>1</c>
+              <c>Mr. Francisco M Carrau</c>
+              <c>male</c>
+              <c>28</c>
+              <c>0</c>
+              <c>0</c>
+              <c>47.1</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>2</c>
+              <c>Miss. Bertha Ilett</c>
+              <c>female</c>
+              <c>17</c>
+              <c>0</c>
+              <c>0</c>
+              <c>10.5</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>Mrs. Karl Alfred (Maria Mathilda Gustafsson) Backstrom</c>
+              <c>female</c>
+              <c>33</c>
+              <c>3</c>
+              <c>0</c>
+              <c>15.85</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. William Neal Ford</c>
+              <c>male</c>
+              <c>16</c>
+              <c>1</c>
+              <c>3</c>
+              <c>34.375</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. Selman Francis Slocovski</c>
+              <c>male</c>
+              <c>20</c>
+              <c>0</c>
+              <c>0</c>
+              <c>8.05</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>1</c>
+              <c>Miss. Mabel Helen Fortune</c>
+              <c>female</c>
+              <c>23</c>
+              <c>3</c>
+              <c>2</c>
+              <c>263</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. Francesco Celotti</c>
+              <c>male</c>
+              <c>24</c>
+              <c>0</c>
+              <c>0</c>
+              <c>8.05</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. Emil Christmann</c>
+              <c>male</c>
+              <c>29</c>
+              <c>0</c>
+              <c>0</c>
+              <c>8.05</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. Paul Edvin Andreasson</c>
+              <c>male</c>
+              <c>20</c>
+              <c>0</c>
+              <c>0</c>
+              <c>7.8542</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>1</c>
+              <c>Mr. Herbert Fuller Chaffee</c>
+              <c>male</c>
+              <c>46</c>
+              <c>1</c>
+              <c>0</c>
+              <c>61.175</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. Bertram Frank Dean</c>
+              <c>male</c>
+              <c>26</c>
+              <c>1</c>
+              <c>2</c>
+              <c>20.575</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. Daniel Coxon</c>
+              <c>male</c>
+              <c>59</c>
+              <c>0</c>
+              <c>0</c>
+              <c>7.25</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. Charles Joseph Shorney</c>
+              <c>male</c>
+              <c>22</c>
+              <c>0</c>
+              <c>0</c>
+              <c>8.05</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>1</c>
+              <c>Mr. George B Goldschmidt</c>
+              <c>male</c>
+              <c>71</c>
+              <c>0</c>
+              <c>0</c>
+              <c>34.6542</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>1</c>
+              <c>Mr. William Bertram Greenfield</c>
+              <c>male</c>
+              <c>23</c>
+              <c>0</c>
+              <c>1</c>
+              <c>63.3583</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>2</c>
+              <c>Mrs. John T (Ada Julia Bone) Doling</c>
+              <c>female</c>
+              <c>34</c>
+              <c>0</c>
+              <c>1</c>
+              <c>23</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>2</c>
+              <c>Mr. Sinai Kantor</c>
+              <c>male</c>
+              <c>34</c>
+              <c>1</c>
+              <c>0</c>
+              <c>26</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Miss. Matilda Petranec</c>
+              <c>female</c>
+              <c>28</c>
+              <c>0</c>
+              <c>0</c>
+              <c>7.8958</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. Pastcho Petroff</c>
+              <c>male</c>
+              <c>29</c>
+              <c>0</c>
+              <c>0</c>
+              <c>7.8958</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>1</c>
+              <c>Mr. Richard Frasar White</c>
+              <c>male</c>
+              <c>21</c>
+              <c>0</c>
+              <c>1</c>
+              <c>77.2875</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. Gustaf Joel Johansson</c>
+              <c>male</c>
+              <c>33</c>
+              <c>0</c>
+              <c>0</c>
+              <c>8.6542</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. Anders Vilhelm Gustafsson</c>
+              <c>male</c>
+              <c>37</c>
+              <c>2</c>
+              <c>0</c>
+              <c>7.925</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. Stoytcho Mionoff</c>
+              <c>male</c>
+              <c>28</c>
+              <c>0</c>
+              <c>0</c>
+              <c>7.8958</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>Miss. Anna Kristine Salkjelsvik</c>
+              <c>female</c>
+              <c>21</c>
+              <c>0</c>
+              <c>0</c>
+              <c>7.65</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>Mr. Albert Johan Moss</c>
+              <c>male</c>
+              <c>29</c>
+              <c>0</c>
+              <c>0</c>
+              <c>7.775</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. Tido Rekic</c>
+              <c>male</c>
+              <c>38</c>
+              <c>0</c>
+              <c>0</c>
+              <c>7.8958</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>Miss. Bertha Moran</c>
+              <c>female</c>
+              <c>28</c>
+              <c>1</c>
+              <c>0</c>
+              <c>24.15</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>1</c>
+              <c>Mr. Walter Chamberlain Porter</c>
+              <c>male</c>
+              <c>47</c>
+              <c>0</c>
+              <c>0</c>
+              <c>52</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Miss. Hileni Zabour</c>
+              <c>female</c>
+              <c>14.5</c>
+              <c>1</c>
+              <c>0</c>
+              <c>14.4542</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. David John Barton</c>
+              <c>male</c>
+              <c>22</c>
+              <c>0</c>
+              <c>0</c>
+              <c>8.05</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Miss. Katriina Jussila</c>
+              <c>female</c>
+              <c>20</c>
+              <c>1</c>
+              <c>0</c>
+              <c>9.825</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Miss. Malake Attalah</c>
+              <c>female</c>
+              <c>17</c>
+              <c>0</c>
+              <c>0</c>
+              <c>14.4583</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. Edvard Pekoniemi</c>
+              <c>male</c>
+              <c>21</c>
+              <c>0</c>
+              <c>0</c>
+              <c>7.925</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. Patrick Connors</c>
+              <c>male</c>
+              <c>70.5</c>
+              <c>0</c>
+              <c>0</c>
+              <c>7.75</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>2</c>
+              <c>Mr. William John Robert Turpin</c>
+              <c>male</c>
+              <c>29</c>
+              <c>1</c>
+              <c>0</c>
+              <c>21</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>1</c>
+              <c>Mr. Quigg Edmond Baxter</c>
+              <c>male</c>
+              <c>24</c>
+              <c>0</c>
+              <c>1</c>
+              <c>247.5208</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Miss. Ellis Anna Maria Andersson</c>
+              <c>female</c>
+              <c>2</c>
+              <c>4</c>
+              <c>2</c>
+              <c>31.275</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>2</c>
+              <c>Mr. Stanley George Hickman</c>
+              <c>male</c>
+              <c>21</c>
+              <c>2</c>
+              <c>0</c>
+              <c>73.5</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>3</c>
+              <c>Mr. Leonard Charles Moore</c>
+              <c>male</c>
+              <c>19</c>
+              <c>0</c>
+              <c>0</c>
+              <c>8.05</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>2</c>
+              <c>Mr. Nicholas Nasser</c>
+              <c>male</c>
+              <c>32.5</c>
+              <c>1</c>
+              <c>0</c>
+              <c>30.0708</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>2</c>
+              <c>Miss. Susan Webber</c>
+              <c>female</c>
+              <c>32.5</c>
+              <c>0</c>
+              <c>0</c>
+              <c>13</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>1</c>
+              <c>Mr. Percival Wayland White</c>
+              <c>male</c>
+              <c>54</c>
+              <c>0</c>
+              <c>1</c>
+              <c>77.2875</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>Master. Elias Nicola-Yarred</c>
+              <c>male</c>
+              <c>12</c>
+              <c>1</c>
+              <c>0</c>
+              <c>11.2417</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="306" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\beuo\AppData\Local\Temp\Engine_3368_83056e92d57249d2a7ac63b09cbd8915_\Engine_3024_2453f5aa379447dcbdcb302f31863d9a_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Perfil</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="306" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\beuo\Desktop\AulasAlteryx\testeInputDinamico.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>testeInputDinamico.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Aula4</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
